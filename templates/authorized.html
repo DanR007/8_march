@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Main page</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div id="mySelect">
+    <span>Контакты</span>
+    <div class="dropdown-content">
+      <p>Не думай что тут что-то будет</p>
+      <p>Ну правда, это просто для красоты</p>
+      <p>Если хочешь напиши в телеге</p>
+      <p>Извини, что привлек внимание</p>
+    </div>
+  </div>
+  <h2 id="Intro">CTF Intro</h2>
+  <h4 id="information">Информация</h4>
+  <p id="blabla">Мы ОчЕнЬ лЮбИм СтРаДаТь ЕрУнДоЙ, кУшАтЬ пЕчЕнЬкИ и рЕшАтЬ rEvErSe</p>
+  <p id="non_authorized">Неавторизованным пользакам нельзя смотреть наши секреты</p>
+  <p id="cipher">Имя: rfwhm</br> Пароль: wj{jwxjdotuf</p>
+  <p id="rights">Права не подтверждены: 8 марта 2024 года. ООО "Ленивец.нет"</p>
+
+  <img id="image_8_marth" width=300 height=300 src="{{ url_for('static', filename='8_marth.jpg') }}">
+  <img id="image" width=300 height=300 src="{{ url_for('static', filename='putin.jpg') }}">
+</body>
+</html>
